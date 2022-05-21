@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai Calculator</title>
+    <style>
+        h1 {
+            color:darkcyan ;
+            text-align: center;
+        }
+        #outer_box {
+            width: 40%;
+           
+            
+            margin: auto;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        }
+        input {
+            display: block;
+            margin: auto;
+           
+            width: 340px;
+            height: 80px;
+            border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        }
+        .box{
+            display: flex;
+            
+        }
+        .box>div{
+            width: 55px;
+            height: 55px;
+            
+            border-radius: 5px;
+            margin: auto;
+            margin-top: 20px;
+            font-weight: bold;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Masai Calculator</h1>
+    <div id="outer_box">
+        <input type="text">
+        <div class="box">
+            <div><p>1</p></div>
+            <div><p>2</p></div>
+            <div><p>3</p></div>
+            <div><p>+</p></div>
+            
+        </div>
+        <div class="box">
+            <div><p>4</p></div>
+            <div><p>5</p></div>
+            <div><p>6</p></div>
+            <div><p>-</p></div>
+    
+        </div>
+        <div class="box">
+            <div><p>7</p></div>
+            <div><p>8</p></div>
+            <div><p>9</p></div>
+            <div><p>*</p></div>
+    
+        </div>
+        <div class="box">
+            <div><p>C</p></div>
+            <div><p>0</p></div>
+            <div><p>=</p></div>
+            <div><p>/</p></div>
+    
+        </div>
+    </div>
+    
+</body>
+</html>
